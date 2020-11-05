@@ -295,6 +295,21 @@
   border-color: #ed7f6c;
 }
 
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(/assets/images/chevron-down.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+option{
+  font-size:15px;
+}
+
+
 .form {
   display: block;
   margin-bottom: auto;
